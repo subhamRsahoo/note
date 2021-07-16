@@ -42,16 +42,16 @@ code {
   /* margin-left: 40px; */
   right: 500px;
   align-items: center;
-/*   position: relative; */
+  /* position: relative; */
   box-sizing: border-box;
-  left: 40px;
+  margin-left: 40px;
 }
 
 .app-wrapper
 {
   background-color: #333;
   width: 500px;
-  height: 350px;
+  min-height: 350px;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 10px;
@@ -172,23 +172,15 @@ button:focus
   outline: none;
 }
 
-
 @media screen and (min-width: 400px)
 {
   .container
   {
      margin-right: 400px;
-  }
-
-  .app-wrapper
-  {
-    
-    width: 400px;
-    height: 260px;
-  }
+  }  
 }
 
-@media screen and (max-width:768px)
+@media screen and (min-width:768px)
 {
   .container
   {
