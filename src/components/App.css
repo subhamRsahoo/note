@@ -182,8 +182,8 @@ button:focus
    .app-wrapper
   {
     
-    min-width: 400px;
-    min-height: 260px;
+    width: 500px;
+    height: 350px;
   }
 }
 
