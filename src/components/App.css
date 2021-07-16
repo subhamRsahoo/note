@@ -42,7 +42,7 @@ code {
   /* margin-left: 40px; */
   right: 500px;
   align-items: center;
-  position: relative;
+/*   position: relative; */
   box-sizing: border-box;
   left: 40px;
 }
@@ -51,7 +51,7 @@ code {
 {
   background-color: #333;
   width: 500px;
-  min-height: 350px;
+  height: 350px;
   padding: 10px;
   box-sizing: border-box;
   border-radius: 10px;
@@ -170,6 +170,22 @@ input:focus,
 button:focus
 {
   outline: none;
+}
+
+
+@media screen and (min-width: 400px)
+{
+  .container
+  {
+     margin-right: 400px;
+  }
+
+  .app-wrapper
+  {
+    
+    width: 400px;
+    height: 260px;
+  }
 }
 
 @media screen and (max-width:768px)
