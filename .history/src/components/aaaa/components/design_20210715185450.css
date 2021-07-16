@@ -1,0 +1,239 @@
+.form
+{
+    width: 100%;
+    height: 250px;
+    display: grid;
+    margin: 0;
+    padding: 0;
+}
+
+
+.contain
+{
+    display: grid;
+    width: 500px;
+    left: 40px;
+    top: 30px;
+    bottom: 10px;
+    box-shadow: 4px 4px 10px #000;
+    position: relative;
+    box-sizing: border-box;
+    
+}
+
+.text1
+{
+    margin-top: 10px;
+   width: 400px;
+   height: 197px;
+   margin-left: 40px;
+   background-color: #333;
+   border-style: none;
+   color: white;
+   border-style: none;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+
+.text1:hover
+{
+    box-shadow: 4px 4px 10px #000;
+}
+
+.contain h1
+{
+    margin-top: 10px;
+   text-align: center;
+}
+
+/* .btn1
+{
+    background-color: #333;
+    margin-left: 70px;
+    text-decoration-color: white;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+
+.btn1:hover
+{
+    box-shadow: 4px 4px 10px #000;
+    padding: 8px 8px;
+} */
+
+
+.contain1
+{
+    width: 500px;
+    top: 50px;
+    left: 40px;
+    box-shadow: 4px 4px 10px #000;
+    position: relative;
+    box-sizing: content-box;
+    display: grid;
+}
+
+.text2
+{
+    margin-top: 10px;
+    width: 400px;
+    height: 197px;
+    margin-left: 40px;
+    background-color: #333;
+    border-style: none;
+    color: white;
+    border-style: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text2:hover
+{
+    box-shadow: 4px 4px 10px #000;
+}
+
+
+.contain1 h2
+{
+    margin-top: 10px;
+   text-align: center;
+}
+
+/* .btn2
+{
+    background-color: #333;
+    margin-left: 70px;
+    text-decoration-color: white;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+
+.btn2:hover
+{
+    box-shadow: 4px 4px 10px #000;
+    padding: 8px 8px;
+} */
+
+.contain2
+{
+   width: 500px;
+    margin-top: 620px;
+    margin-left: 40px;
+    /* bottom: 630px; */
+    box-shadow: 4px 4px 10px #000;
+    position: absolute;
+    box-sizing:border-box;
+    display: grid;
+}
+
+.text3
+{
+    margin-top: 10px;
+    width: 400px;
+    height: 197px;
+    margin-left: 40px;
+    background-color: #333;
+    border-style: none;
+    color: white;
+    border-style: none;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.text3:hover
+{
+    box-shadow: 4px 4px 10px #000;
+}
+
+
+.contain2 h2
+{
+    margin-top: 10px;
+   text-align: center;
+}
+
+/* .btn3
+{
+    background-color: #333;
+    margin-left: 70px;
+    text-decoration-color: white;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+    padding: 8px 8px;
+    border-radius: 10px;
+}
+
+.btn3:hover
+{
+    box-shadow: 4px 4px 10px #000;
+    padding: 8px 8px;
+} */
+
+@media screen and (max-width:768px)
+{
+    .contain
+    {
+        /* left: 80px; */
+        margin-left: 40px;
+        align-items: center;
+    }
+    .contain1
+    {
+        left: 80px;
+        align-items: center;
+    }
+    .contain2
+    {
+        left: 80px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 540px)
+{
+    .contain
+    {
+        left: 0;
+        align-items: center;
+    }
+    .contain1
+    {
+        left: 0px;
+        align-items: center;
+    }
+    .contain2
+    {
+        left: 0px;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1020px)
+{
+    .contain
+    {
+        left: 0;
+        align-items: center;
+    }
+    .contain1
+    {
+        left: 0px;
+        align-items: center;
+    }
+    .contain2
+    {
+        left: 0px;
+        align-items: center;
+    }
+}
+
